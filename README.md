@@ -25,9 +25,7 @@ Klar! Hier ist dein vollständiger und sauber strukturierter README.md-Text als 
 * [✅] Die HTML-Oberfläche ist mit einem Template (`index.html`) gestaltet.
 * [✅] Das Verhalten bei POST/GET wird im `app.py` korrekt gesteuert.
 
-📸 Beispiel-Screenshot der App im Browser:  
-```markdown
-![App im Browser](images/screenshot-app.png)
+![Screenshot 2025-04-21 at 16 44 35](https://github.com/user-attachments/assets/4e9548bf-7344-42a5-acaa-de9f60766e9f)
 
 Dependency Management
 	•	[✅] Die Datei requirements.txt enthält alle benötigten Abhängigkeiten:
