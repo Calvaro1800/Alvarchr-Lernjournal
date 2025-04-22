@@ -1,4 +1,4 @@
-﻿Klar! Hier ist dein vollständiger und sauber strukturierter README.md-Text als ein einzelner Markdown-Block – direkt bereit zum Einfügen in dein Repository:
+Klar! Hier ist dein vollständiger und sauber strukturierter README.md-Text als ein einzelner Markdown-Block – direkt bereit zum Einfügen in dein Repository:
 
 ⸻
 
