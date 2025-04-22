@@ -68,6 +68,8 @@ az webapp create --resource-group mdm-gruppe --plan mdm-plan --name MotivationGe
 
 az webapp deploy --resource-group mdm-gruppe --name MotivationGenerator --src-path mon-app.zip --type zip
 
+<img width="1020" alt="Screenshot 2025-04-22 at 14 00 25" src="https://github.com/user-attachments/assets/675726f2-fb07-493b-828d-6bdb62dcdc15" />
+
 
 	6.	Startbefehl setzen:
 
