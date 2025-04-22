@@ -25,7 +25,7 @@ Klar! Hier ist dein vollständiger und sauber strukturierter README.md-Text als 
 * [✅] Die HTML-Oberfläche ist mit einem Template (`index.html`) gestaltet.
 * [✅] Das Verhalten bei POST/GET wird im `app.py` korrekt gesteuert.
 
-![Screenshot 2025-04-21 at 16 44 35](https://github.com/user-attachments/assets/4e9548bf-7344-42a5-acaa-de9f60766e9f)
+<img width="942" alt="Screenshot 2025-04-22 at 13 40 37" src="https://github.com/user-attachments/assets/555ab5fe-630d-4226-bae6-0e81956a3392" />
 
 Dependency Management
 	•	[✅] Die Datei requirements.txt enthält alle benötigten Abhängigkeiten:
@@ -40,11 +40,7 @@ pip install -r requirements.txt
 
 flask --app app run
 
-
-
-📸 Beispiel-Terminalausgabe beim lokalen Start:
-
-![Terminal Output - Local Run](images/screenshot-local-run.png)
+<img width="1068" alt="Screenshot 2025-04-22 at 13 42 14" src="https://github.com/user-attachments/assets/cd88bd5e-adb4-4e4a-8c20-afb738880182" />
 
 Deployment
 	•	[✅] Die App wurde erfolgreich auf Azure App Service deployed.
@@ -54,16 +50,19 @@ Deployment
 
 az group create --name mdm-gruppe --location westeurope
 
+<img width="954" alt="Screenshot 2025-04-21 at 16 25 34" src="https://github.com/user-attachments/assets/4fe0a481-04b6-47ec-a4d6-abf8c0d4386f" />
 
 	3.	App Service Plan:
 
 az appservice plan create --name mdm-plan --resource-group mdm-gruppe --sku FREE --is-linux
 
+<img width="1041" alt="Screenshot 2025-04-21 at 16 25 47" src="https://github.com/user-attachments/assets/ae101b89-48bf-4faa-86fb-cb2e1715cada" />
 
 	4.	Webapp erstellen:
 
 az webapp create --resource-group mdm-gruppe --plan mdm-plan --name MotivationGenerator --runtime "PYTHON|3.10"
 
+<img width="1079" alt="Screenshot 2025-04-21 at 16 25 56" src="https://github.com/user-attachments/assets/4f2b873b-36b0-44f5-99e2-b05dc3ee3ab4" />
 
 	5.	App als ZIP bereitstellen:
 
